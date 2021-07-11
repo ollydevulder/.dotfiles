@@ -1,4 +1,4 @@
-function fish_right_prompt -d "Write right-side prompt"
+function fish_right_prompt --description "Write right-side prompt"
 	set -l state $status
 	set -g __fish_git_prompt_showcleanstate 1
 	set -g __fish_git_prompt_showdirtystate 1
